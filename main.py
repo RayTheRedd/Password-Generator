@@ -22,10 +22,10 @@ password_list = []
 for char in range(1, n_let + 1):
     password_list.append(random.choice(letters))
 
-for char in range(1, n_sym + 1):
+for char in range(1, n_num + 1):
     password_list.append(random.choice(numbers))
 
-for char in range(1, n_num + 1):
+for char in range(1, n_sym + 1):
     password_list.append(random.choice(symbols))
 
 random.shuffle(password_list)
